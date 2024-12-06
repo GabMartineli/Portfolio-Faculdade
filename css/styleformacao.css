@@ -1,0 +1,145 @@
+/*reset basico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos basicos do body */
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;        
+    line-height: 1.6;
+    color: #e6d7d7;
+    font-size: 18px;
+    background-color: black;
+    overflow:hidden ;
+    
+}
+
+/* Margem e alinhamentos do cabeçalho */
+.header-content {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* Remover a marcação do "li" */
+
+header ul li{
+    list-style: none;
+}
+
+/* Margem e decoração dos links */
+
+header ul li a{
+    margin: 0 3rem;
+    color:white;
+    text-decoration:none;
+    font-size: 18px;
+    font-weight:550;
+}
+
+/* Alinhamento do icone */
+
+.header-content img{
+    width: 60px;
+    margin-left: 200%;
+}
+
+/* Titulo da Pagina */
+
+.texto{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 3%;
+}
+
+/* Dando espaçamento entre as div  */
+
+.formacoes {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px;
+}
+
+/* Estilo das divs  */
+
+.card-formacoes {
+    background: #1a1919;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+    width: 450px;
+    height: 200px;
+    margin-top: 10%;
+    transition: 0.3s ease;
+}
+
+.card-formacoes h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+    
+}
+
+.card-formacoes h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+}
+
+.card-formacoes:hover {
+    border-color: #ffffff;
+}
+
+/* Margem e alinhamentos do rodapé */
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 14.3%;
+    margin-left: 13%;
+
+}
+
+/* Remover a marcação do "li" */
+
+footer ul li{
+    list-style: none;
+}
+
+/* Margem e decoração do rodapé */
+
+footer ul li a {
+    margin: 4rem;
+    text-decoration: none;
+    color:white;
+    text-align: left;
+    pointer-events: none;
+    
+}
+
+/* Margem e decoração do texto no rodapé */
+
+#texto{
+    margin: 0 13rem;
+    text-align: right;
+    color: white;   
+    font-size: 19px;
+    text-decoration: solid;
+    pointer-events: none;
+}
+
+.linkheader:hover{
+    text-decoration: underline 2px #ffffff;  
+    
+}
+

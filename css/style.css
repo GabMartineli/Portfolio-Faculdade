@@ -1,0 +1,113 @@
+/*reset basico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Colocando a imagem aqui para poder sobrepor os elementos depois */
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;        
+    line-height: 1.6;
+    color: #e6d7d7;
+    font-size: 18px;
+    background-image: url(../img/pxfuel.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow:hidden ;
+    
+}
+
+/* Margem e alinhamentos do cabeçalho */
+.header-content {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* Remover a marcação do "li" */
+
+header ul li{
+    list-style: none;
+}
+
+/* Margem e decoração dos links */
+
+header ul li a{
+    margin: 0 3rem;
+    color:white;
+    text-decoration:none;
+    font-size: 18px;
+    font-weight:550;
+}
+
+/* Alinhamento do icone */
+
+.header-content img{
+    width: 60px;
+    margin-left: 200%;
+    
+}
+
+
+.main h1{
+    margin-left:18%;
+    margin-top: 13%;
+    color: aliceblue;
+    font-size: 40px;
+    
+}
+
+.main h2{
+    margin-left:20%;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+/* Margem e alinhamentos do rodapé */
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 23.5%;
+    margin-left: 13%;
+
+}
+
+/* Remover a marcação do "li" */
+
+footer ul li{
+    list-style: none;
+}
+
+/* Margem e decoração do rodapé */
+
+footer ul li a {
+    margin: 4rem;
+    text-decoration: none;
+    color:white;
+    text-align: left;
+    pointer-events: none;
+    
+}
+
+
+/* Margem e decoração do texto no rodapé */
+
+#texto{
+    margin: 0 13rem;
+    text-align: right;
+    color: white;   
+    font-size: 19px;
+    text-decoration: solid;
+    pointer-events: none;
+}
+
+
+.linkheader:hover{
+    text-decoration: underline 2px #ffffff;  
+    
+}
+

@@ -1,0 +1,182 @@
+/*reset basico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos basicos do body */
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;        
+    line-height: 1.6;
+    color: #e6d7d7;
+    font-size: 18px;
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Margem e alinhamentos do cabeçalho */
+.header-content {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Remover a marcação do "li" */
+
+header ul li{
+    list-style: none;
+}
+
+/* Margem e decoração dos links */
+
+header ul li a{
+    margin: 0 3rem;
+    color:white;
+    text-decoration:none;
+    font-size: 18px;
+    font-weight:550;
+
+}
+
+.header-content img{
+    width: 60px;
+    margin-left: 200%;
+}
+
+/* Alinhamento */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#imagem-port {
+    width: 500px;
+    height: 250px;
+    border-radius: 25px;
+    padding: 15px;
+
+}
+
+#imagem-port2 {
+    width: 500px;
+    height: 250px;
+    border-radius: 25px;
+    padding: 15px;
+
+}
+
+#github-imagem{
+    width: 75px;
+    height: auto;
+    padding: 15px;
+    margin-top: 7px;
+    margin-left: 7px;
+    border-radius: 35px;
+
+}
+
+/* Estilo da div */
+
+.projetos{
+    width: 500px;
+    height: 700px;
+    border-radius: 25px;
+    background: #1a1919;
+    margin-left: 15%;
+    margin-top: 2%;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+
+}
+
+/* Estilo da div */
+
+.projetos2{
+    width: 500px;
+    height: 700px;
+    border-radius: 25px;
+    background: #1a1919;
+    margin-right: 15%;
+    margin-top: 2%;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+    
+}
+
+/* Estilo dos textos */
+
+main h1{
+    margin-bottom: 15px;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: left;
+    padding-left: 15px;
+    text-decoration:underline;
+    
+}
+
+main h2{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #e4e2e2;
+    font-size: 18px;
+    text-align: justify;
+    
+}
+
+/* Margem e alinhamentos do rodapé */
+
+footer {
+    margin-bottom: 10px;
+    margin-left: 13%;
+    margin-top: 3.7%;
+}
+
+/* Remover a marcação do "li" */
+
+footer ul li{
+    list-style: none;
+}
+
+/* Margem e decoração do rodapé */
+
+footer ul li a {
+    margin: 4rem;
+    text-decoration: none;
+    color:white;
+    text-align: left;
+    pointer-events: none;
+}
+
+/* Margem e decoração do texto no rodapé */
+
+#texto{
+    margin: 0 13rem;
+    text-align: right;
+    color: white;   
+    font-size: 19px;
+    text-decoration: solid;
+    pointer-events: none;
+}
+
+.linkheader:hover{
+    text-decoration: underline 2px #ffffff;  
+    
+}
+
+.projetos:hover{
+    border: 1px solid #ffffff;
+}
+
+.projetos2:hover{
+    border: 1px solid #ffffff;
+}
+
+
+

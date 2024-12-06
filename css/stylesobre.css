@@ -1,0 +1,141 @@
+/*reset basico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos basicos do body */
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;        
+    line-height: 1.6;
+    color: #e6d7d7;
+    font-size: 18px;
+    background-color: black;
+    overflow:hidden ;
+}
+
+
+
+/* Margem e alinhamentos do cabeçalho */
+.header-content {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* Remover a marcação do "li" */
+
+header ul li{
+    list-style: none;
+    
+}
+
+/* Margem e decoração dos links */
+
+header ul li a{
+    margin: 0 3rem;
+    color:white;
+    text-decoration:none;
+    font-size: 18px;
+    font-weight:550;
+    
+}
+
+/* Alinhamento do icone */
+
+.header-content img{
+    width: 60px;
+    height: auto;
+    margin-left: 200%;
+    
+}
+
+/* Para poder alinhar a imagem e o texto */
+
+.main{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+.main h1{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    padding-bottom: 30px;
+
+}
+
+.main h3{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+/* Alinhando a imagem ao lado do texto */
+
+.main img{
+    width: 500px;
+    height: 530px;
+    margin-right: 180px;
+    margin-top: 15%;
+    border-radius: 20px;
+
+}
+
+
+.biografia{
+    width: 560px;
+    height: auto;
+    margin-left: 17%;
+    margin-top: 50px;
+    
+    
+}
+
+/* Margem e alinhamentos do rodapé */
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8.8%;
+    margin-left: 13%;
+}
+
+/* Remover a marcação do "li" */
+
+footer ul li{
+    list-style: none;
+}
+
+/* Margem e decoração do rodapé */
+
+footer ul li a {
+    margin: 4rem;
+    text-decoration: none;
+    color:white;
+    text-align: left;
+    pointer-events: none;
+}
+
+/* Margem e decoração do texto no rodapé */
+
+#texto{
+    margin: 0 13rem;
+    text-align: right;
+    color: white;   
+    font-size: 19px;
+    text-decoration: solid;
+    pointer-events: none;
+}
+
+.linkheader:hover{
+    text-decoration: underline 2px #ffffff;  
+    
+}
