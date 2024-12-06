@@ -64,12 +64,12 @@
                             <div class="form-mid">
                                 <div class="alinhamento-coluna">
                                     <label for="email">Email</label>
-                                    <input class="inputcss" type="email" name="email" id="email">
+                                    <input class="inputcss" type="email" name="email" id="email" required>
                                 </div>
 
                                 <div class="alinhamento-coluna">
                                     <label for="telefone">Telefone</label>
-                                    <input class="inputcss" type="tel" name="telefone" id="telefone">
+                                    <input class="inputcss" type="tel" name="telefone" id="telefone"  pattern="^([0-9]{2}) [0-9]{5}-[0-9]{4}$" required autocomplete="tel-national" >
                                 </div>
                             </div>
 
