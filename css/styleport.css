@@ -134,8 +134,10 @@ main h2{
 /* Margem e alinhamentos do rodapé */
 
 footer {
+
+    display: flex;
+    justify-content: center;
     margin-bottom: 10px;
-    margin-left: 13%;
     margin-top: 3.7%;
 }
 
@@ -148,10 +150,8 @@ footer ul li{
 /* Margem e decoração do rodapé */
 
 footer ul li a {
-    margin: 4rem;
     text-decoration: none;
     color:white;
-    text-align: left;
     pointer-events: none;
 }
 

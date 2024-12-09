@@ -220,9 +220,8 @@ textarea:focus{
 
 footer {
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
     margin-top: -9%;
-    margin-left: 13%;
 }
 
 /* Remover a marcação do "li" */
@@ -235,10 +234,8 @@ footer ul li{
 /* Margem e decoração do rodapé */
 
 footer ul li a {
-    margin: 4rem;
     text-decoration: none;
     color:white;
-    text-align: left;
     pointer-events: none;
 }
 

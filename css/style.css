@@ -71,9 +71,8 @@ header ul li a{
 
 footer {
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
     margin-top: 23.5%;
-    margin-left: 13%;
 
 }
 
@@ -86,10 +85,9 @@ footer ul li{
 /* Margem e decoração do rodapé */
 
 footer ul li a {
-    margin: 4rem;
     text-decoration: none;
     color:white;
-    text-align: left;
+    text-align: center;
     pointer-events: none;
     
 }
